@@ -42,7 +42,7 @@
    ![image](https://user-images.githubusercontent.com/74985818/115130866-37e21500-9fc1-11eb-949e-76004428a3e7.png)
 
 
-#### Followed by the below query to get Retiring Titles to derive the count of each title.
+#### Followed by the below query to derive the count of each retiring title.
 #### Query:
     SELECT count(title), title
     INTO retiring_titles
