@@ -37,7 +37,7 @@
     FROM retiring_empl
     ORDER BY emp_no, to_date DESC;
     
-#### Result:
+#### Output:
     
    ![image](https://user-images.githubusercontent.com/74985818/115130866-37e21500-9fc1-11eb-949e-76004428a3e7.png)
 
@@ -50,7 +50,7 @@
     GROUP BY title
     ORDER BY count(title) desc
     
-#### Result:
+#### Output:
 
    ![image](https://user-images.githubusercontent.com/74985818/115130973-20eff280-9fc2-11eb-93c0-a1f8c28a069e.png)
 
@@ -73,11 +73,11 @@
           and e.birth_date between '1965-01-01' and '1965-12-31'
         ORDER BY de.emp_no
     
-#### Result:
+#### Output:
    ![image](https://user-images.githubusercontent.com/74985818/115135538-3297c100-9fe7-11eb-801a-ca652ca39586.png)
 
 
-### Takeaways:
+### Result:
    1. Total employees with birth date between 1952 and 1955 are 133,776.
    2. Of which 90,398 employee IDs are unique.
    3. Of which, Senior Engineers are 29,414 (highest) and 28,254 Senior Staff (second highest).
