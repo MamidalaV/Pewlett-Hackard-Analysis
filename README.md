@@ -12,9 +12,7 @@
 
 ## Data within the employee database has been queried to identify the below:
 
-### 'employees' table and 'title' table have been queried to filter the list of employees with birthdate between 1952 and 1955.
-
-#### Analysis #1 - Unique Titles
+#### Analysis #1 - Unique Titles. 'employees' table and 'title' table have been queried to filter the list of employees with birthdate between 1952 and 1955.
 #### Query:
     SELECT e.emp_no,
         e.first_name, 
@@ -44,9 +42,7 @@
    ![image](https://user-images.githubusercontent.com/74985818/115130866-37e21500-9fc1-11eb-949e-76004428a3e7.png)
 
 
-### Query to retreive the number of employees by their most recent job title who are about to retire.
-
-#### Followed by the below query to get Retiring Titles
+#### Followed by the below query to get Retiring Titles to derive distinct values.
 #### Query:
     SELECT count(title), title
     INTO retiring_titles
@@ -81,7 +77,15 @@
    ![image](https://user-images.githubusercontent.com/74985818/115135538-3297c100-9fe7-11eb-801a-ca652ca39586.png)
 
 
+### Takeaways:
+   1. Total employees with birth date between 1952 and 1955 are 133,776.
+   2. Of which 90,398 employee IDs are unique.
+   3. Of which, Senior Engineers are 29,414 (highest) and 28,254 Senior Staff (second highest).
+   4. Of these, employees who are active and eligibile for Mentorship are 1,549.
 
-### 
 
 # SUMMARY:
+   1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+      - 90,398 oles are in urgent need to be filled out as soon as the workforce starts retiring at any given time.
+   3. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 
+      - No, we have 1,940 employees who are eligible to participate in a mentorship program.
